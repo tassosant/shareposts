@@ -9,7 +9,7 @@
             //$this->view('hello'); //must die bec view.php does not exist
             //$this->view('pages/index', ['title' => 'Welcome']); // array ['title'(key) => 'Welcome' (value)]
             $data = [
-                'title'=> 'Welcome'//,
+                'title'=> 'SharePosts'//,
                 //'posts'=> $posts
             ];
             
