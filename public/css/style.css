@@ -1,1 +1,6 @@
 /*body{background:red;}*/
+#navbar_right{
+    justify-content: right;
+    text-align: right;
+    float: right;
+}
