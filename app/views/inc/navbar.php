@@ -6,7 +6,7 @@
         </button>
 
         <div class="collapse navbar-collapse" id="navbarsExample10">
-          <ul class="navbar-nav mr-auto">
+          <ul class="navbar-nav me-auto">
             <li class="nav-item active">
               <a class="nav-link" href="<?php echo URLROOT;?>">Home</a>
             </li>
@@ -17,7 +17,7 @@
               <a class="nav-link disabled">Disabled</a>
             </li>
             </ul>
-          <ul class="navbar-nav ml-auto">
+          <ul class="navbar-nav ms-auto">
             <li class="nav-item active">
               <a class="nav-link" href="<?php echo URLROOT;?>/users/register">Register</a>
             </li>
