@@ -13,7 +13,7 @@
                 // Process form
                 
                 //Sanitize POST data
-                $_POST = filter_input_array(INPUT_POST, FILTER_UNSAFE_RAW);
+                $_POST = filter_input_array(INPUT_POST, FILTER_UNSAFE_RAW); // The tutorial has FILTER_SANITIZE_STRING but it has been removed by PHP community
                 //Init data
                 $data = [
                     'name' => trim($_POST['name']),
