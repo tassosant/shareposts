@@ -52,10 +52,10 @@
         $url = explode('/', $url);
         return $url;
       }
-     /* else {
+      else {
         return array("");
-        }*/
-        return ['pages']; 
+        }
+        //return ['pages']; 
     }
   } 
   
