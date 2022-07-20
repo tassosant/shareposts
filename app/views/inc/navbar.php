@@ -6,7 +6,7 @@
         </button>
 
         <div class="collapse navbar-collapse" id="navbarsExample10">
-          <ul class="navbar-nav me-auto">
+          <ul class="navbar-nav me-auto"> 
             <li class="nav-item">
               <a class="nav-link" href="<?php echo URLROOT;?>">Home</a>
             </li>
