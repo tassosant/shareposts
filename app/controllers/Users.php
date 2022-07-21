@@ -69,6 +69,7 @@
                     // Call model function
                     // Register user
                     if($this->userModel->register($data)){
+                        flash('register_success', 'You are registered and can log in');
                         //redirect to login page
                         redirect('users/login');
                     }else{
