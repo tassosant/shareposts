@@ -5,6 +5,9 @@
         }
         
         public function index(){
+            if(isLoggedIn()){
+                redirect('posts');
+            }
           //  $posts = $this->postModel->getPosts();
             //$this->view('hello'); //must die bec view.php does not exist
             //$this->view('pages/index', ['title' => 'Welcome']); // array ['title'(key) => 'Welcome' (value)]
