@@ -73,7 +73,7 @@
         public function single()
         {
             $this->execute();
-            return $this->stmt->fetch(PDO::FETCH_OBJ);
+            return $this->stmt->fetch(PDO::FETCH_OBJ); // Returns an anonymous object with property names that correspond to the column names returned in your result set 
         }
 
         // Get row count

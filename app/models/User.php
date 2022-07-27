@@ -56,6 +56,17 @@
             }
         }
 
+        // Find user by email
+        public function getUserById($id){ //Input param email from the controller
+            $this->db->query('SELECT * FROM users WHERE id = :id');
+            // Bind value
+            $this->db->bind(':id', $id);
+
+            $row = $this->db->single();
+
+            // Check row
+            return $row;
+        }
         
 
     }
