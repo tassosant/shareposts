@@ -132,4 +132,19 @@
             }
         }
 
+        public function delete($id){
+            if($_SERVER['REQUEST_METHOD'] == 'POST'){
+                if($this->postModel->deletePost($id)){
+                    flash('post_message', 'Post removed');
+                    redirect('posts');
+                }else{
+                    die('Sth went wrong');
+                }
+            }
+            else{
+                redirect('posts');
+            }
+        }
+
+        
     }
